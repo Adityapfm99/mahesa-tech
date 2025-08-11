@@ -36,4 +36,30 @@ Mahesa Tech is a SaaS platform for automating and converting invoices to comply 
 ## License
 
 MIT
-# mahesa-tech
+
+## SaaS Paid User Flow
+
+1. **User Registration/Login**
+   - User signs up and logs in to their account.
+
+2. **Subscription/Purchase**
+   - User selects a pricing tier (e.g. Pro/Enterprise) and completes payment (Stripe, etc).
+
+3. **Access Paid Features**
+   - After payment, user status is updated to "paid".
+   - User can access unlimited conversions, dashboard, API, and other premium features.
+
+4. **Usage Tracking**
+   - User's conversion history, usage limits, and billing info are tracked in their account.
+
+5. **Renewal/Upgrade**
+   - User can renew, upgrade, or downgrade their plan from the dashboard.
+
+6. **Logout/Account Management**
+   - User can manage profile, billing, and logout securely.
+
+**Technical Implementation:**
+- Use authentication (JWT, NextAuth, etc).
+- Store user status (free/paid) in backend/database.
+- Check user status before allowing access to paid features.
+- Integrate payment gateway for subscription management.

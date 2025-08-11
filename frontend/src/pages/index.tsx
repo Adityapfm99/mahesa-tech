@@ -13,8 +13,8 @@ export default function Home() {
         <header className={styles.header}>
           <h1>Mahesa Tech</h1>
           <nav>
-            <a href="#features">Features</a>
-            <a href="#contact">Contact</a>
+            <a href="/features">Features</a>
+            <a href="/contact">Contact</a>
           </nav>
         </header>
         <main>
@@ -33,11 +33,7 @@ export default function Home() {
               <li><strong>Convert Invoice Legal Japan:</strong> Automate and convert invoices to comply with Japanese legal standards for business documentation.</li>
             </ul>
           </section>
-          <section id="contact" className={styles.contact}>
-            <h3>Contact Us</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <p>Email: info@mahesa-tech.com</p>
-          </section>
+        \
         </main>
         <section className={styles.testimonials}>
           <h3>Testimonials</h3>
